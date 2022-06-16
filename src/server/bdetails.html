@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>booking details</title>
+</head>
+<body>
+    
+        <form>
+            <h4>Details</h4>
+            <input className ='inputs' id="Name" placeholder='Name' name ='Name' type=Name } onChange={handleChange} /><br>
+            <input classname ='inputs' id="number" placeholder='phone number' name ='phonenumber' type=number  onChange={handleChange}/><br>
+            <select> className='inputs' id="gender" placeholder='gender' name ='gender type=Name <option selected disabled>gender</option> <option>Male</option> <option>Female</option> <option>others</option>  onChange={handleChange} </select> <br>
+            <input classname='inputs' id="Email" placeholder='emailId' name ='emailId' type=email  onChange={handleChange}/><br>
+            <input classname='inputs'  placeholder='password' name ='password' type=password  onChange={handleChange}/><br>
+            <input classname='inputs' placeholder='confirm password' name ='confirmpassword' type=password  onChange={handleChange}/><br>
+            
+           
+            <input id='btn' type="submit" placeholder='Register' onclick="register(event)">
+        </form>
+        
+        <p>Name: <span id="display_name"></span></p>
+        <p>Email: <span id="display_email"></span></p>
+        <p>gender: <span id="display_gender"></span></p>
+        <p>number: <span id="display_number"></span></p>
+    
+    <script>
+    const register = function (event) {
+   
+    let r_name = document.querySelector("#name").value;
+    let r_email = document.querySelector("#email").value;
+    let r_gender = document.querySelector("#gender").value;
+    let r_number = document.querySelector("#number").value;
+    
+    display_name.innerHTML = r_name;
+    display_email.innerHTML = r_email;
+    display_.gender.innerHTML = r_gender;
+    display_number.innerHTML = r_number;
+    event.preventDefault();
+    };
+    </script>
+</body>
+</html>

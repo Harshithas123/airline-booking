@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(183, 190, 167);
+  }
+  #front1{
+    background-color: lightgrey;
+    width: 200px; 
+    padding: 50px;
+    margin: 20px;
+    display: inline-flexbox;
+    font-style:oblique;
+    font-size: x-large;
+  }
+  #front2 {
+    background-color: lightgrey;
+    width:200px;
+    padding: 50px;
+    margin: 20px;
+    display: inline-flexbox;
+    font-style:oblique;
+    font-size: x-large;
+  }
+  #front3 {
+    background-color: lightgrey;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+    display:inline-flexbox;
+    font-style: oblique;
+    font-size: x-large;
+  }
+  
+  

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <meta charset="utf-8">
+<head>
+    <title>Add FLIGHTS</title>
+    <link rel="stylesheet" href="addflights.css" />
+</head>
+<body>  
+    <title>ADD FLIGHT INFORMATION</title>
+    <div className='data'>
+        <select> className='inputs' placeholder='Airlinename' name ='Airline' type=Name <option selected disabled>--Select AIRLINE--</option> <optgroup label="Airlinename"> <option>IndiGO</option> <option>Air India</option> <option>Air Asia India</option> <option>Qatar Airways</option> <option>others</option></optgroup>  onChange={handleChange} </select> 
+        <input classname='inputs' placeholder='Date' name ='Date' type=date  onChange={handleChange}/>
+        <input classname='inputs' placeholder='Departure Time' name ='Dept' type=time  onChange={handleChange}/>
+        <input classname='inputs' placeholder='Arrival Time' name ='Arrival' type=time  onChange={handleChange}/>
+        <input classname='inputs' placeholder='Borading Point' name ='Point' type=place  onChange={handleChange}/>
+        <input classname='inputs' placeholder='Destination' name ='destPoint' type=place  onChange={handleChange}/>
+        <input className='inputs' placeholder='Cost' name ='Cost' type=number  onChange={handleChange} />
+  
+   <button onClick={handleClick}>submitt</button>
+      </div>
+      
+
+ 
+ </body>
+ </html>
